@@ -1,0 +1,221 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: auto;
+
+}
+
+@media {
+  prefers-reduced-motion: reduce
+
+}
+
+body {
+  min-width: 290px;
+  font-size: 17;
+  line-height: 1.5;
+  color: #151152;
+  
+}
+
+#navbar {
+  position: fixed;
+  min-width: 200px;
+  top: 0px;
+  left: 0px;
+  width: 200px;
+  height: 100%;
+  border-right: #151152 5px solid;
+  background-color: 6B3710
+
+}
+
+nav header {
+  margin: 0px 0px 20px 0;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 2em;
+  border-bottom: #151152 10px double;
+  background-color: B52121;
+  color: #FFD921;
+  font-family: "papyrus";
+}
+
+#navbar ul {
+  margin-top: -20px;
+  padding: 0;
+  background-color: #FFD921;
+
+}
+
+#navbar li {
+  border-bottom: #151152 2px solid;
+  list-style: none;
+  position: relative;
+  width: 100%;
+  text-transform: uppercase;
+  font-family: "candara";
+
+}
+
+nav li:hover {
+  background-color: #151152;
+  color: #FFD921;
+
+}
+
+#navbar a {
+  display: block;
+  padding: 10px 30px;
+  text-decoration: none;
+  text-align: center;
+  color: #151152;
+}
+
+#navbar a:hover {
+  background-color: #151152;
+  color: #FFD921;
+
+}
+
+.banner {
+  position: sticky;
+  top: 0;
+  border: #151152 4px solid;
+}
+
+img {
+  background-size: contain;
+  width: 100%;
+  height: 150px;
+}
+#main-doc {
+  position: absolute;
+  left: 55;
+  right: 0;
+  margin:-10px 0px 110px 147px;
+  margin-bottom: 110px;
+  font-family: "candara";
+}
+
+
+.main-section header {
+  font-weight: bold;
+  font-size: 25;
+  font-family: "papyrus";
+  text-transform: uppercase;
+  border-bottom: #151152 4px solid;
+  border-top: #151152 4px solid;
+  width: 100%;
+  background-color: #DDA059;
+  position: sticky;
+  top: 155px;
+}
+
+.background-div {
+  margin: 0px 10% 0px 10%;
+  border-left: solid;
+  border-right: solid;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+
+}
+
+thead th {
+  border-bottom: double thick;
+
+}
+
+.caption {
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.5) 0.35rem, rgba(21, 17, 82, 0.5) 1.65rem);
+    
+}
+
+.caption th:not(:first-of-type) {
+  width: 50px;
+  padding: 7px;
+}
+
+.caption th:first-of-type {
+  width: 140px;
+}
+
+tr:not(th) {
+  text-align: center;
+}
+
+tr th {
+  text-align: left;
+
+}
+
+code {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 40px;
+  margin-left: 30px;
+}
+
+#Spring {
+    background-image: url("	https://sdewhq.com/wp-content/uploads/2021/12/Stardew-Valley-The-Flower-Dance.webp");
+  background-repeat: no-repeat;
+  background-size: contain;
+   background-position: 0% 0%;
+  background-size: 100% 100%;
+
+}
+
+#Summer {
+  background-image: url("https://www.ggrecon.com/media/zjtfsosg/stardew-valley-luau.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0% 0%;
+  background-size: 100% 100%;
+  
+}
+#Fall {
+  background-image: url("https://sdewhq.com/wp-content/uploads/2021/12/Stardew-Valley-Fair.webp");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0% 0%;
+  background-size: 100% 100%;
+  
+}
+#Winter {
+  background-image: url("https://sdewhq.com/wp-content/uploads/2021/12/Stardew-Valley-Festival-of-Ice.webp");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0% 0%;
+  background-size: 100% 100%;
+  
+}
+
+#helpful_info header, p{
+  text-align: center;
+}
+
+#helpful_info a {
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+#helpful_info a:hover {
+  background-color: #FFD921;
+  color: #151152;
+  border-radius: 5px;
+}
+
+#helpful_info:not(header) {
+  background-image: url("https://jasminealiworld.files.wordpress.com/2019/11/img_2611.jpg?w=1200");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0% 0%;
+  background-size: 100% 100%;
+  margin-bottom: -20;
+  padding-bottom: 5px
+}
